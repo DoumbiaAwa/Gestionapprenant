@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <!--La partie entête-->
+    <div class="tete">
+<!--La partie logo-->
+
+<div class="gauche">
+        <img src="th.jpeg" alt="">
+        <div class="titre"> 
+            <h1><span>Orange<br></span>Digital Center</h1>
+        </div>
+        <div class="droite">
+        <img src="Vector.jpg" alt="">
+        <img src="Vector2.jpg" alt="">
+    </div>
+    </div>
+</div>
+    <!--La partie milieu-->
+    <div class=" centre">
+
+
+    </div>
+    <!--La partie form-->
+    <div class="cadre">
+    
+<form action="page.php" method="POST" id="myform">
+    <div>
+        <h1>Plateforme d'administrateur</h1>
+    <label>Identifiant</label>
+    <input type="text" id="ide" placeholder="Entrez votre Identifiant" required>
+</div>
+<div>
+    <label>Mot de passe</label>
+    <input type="password"  id="mdp" placeholder="Entrez votre mot de passe" required>
+
+</div>
+<br>
+
+<button type="submit" class="connexion">Connexion</button>
+
+<p style="color: red;" id="erreur"></p>
+</form>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+    
+</body>
+</html>
